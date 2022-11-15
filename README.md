@@ -20,7 +20,7 @@ Save the Clean data to the file
 
 # CODE
 # CODE FOR DATA SET 1:
-```
+~~~
 import pandas as pd
 df=pd.read_csv("Data_set.csv")
 df.head(5)
@@ -47,30 +47,31 @@ df.info()
 
 df.isnull().sum()
 
-```
+~~~
 ### output 1:
-Data
+### Data:
+![image](https://user-images.githubusercontent.com/93427248/201912754-d2ef6e34-80e9-4ea6-a285-769f232d8146.png)
 
-![output](./dur.1.png)
-![output](./dur.2.png)
-![output](./dur.3.png)
+![image](https://user-images.githubusercontent.com/93427248/201912789-4d1aca82-8015-47d7-a02b-64ed5c843825.png)
 
+![image](https://user-images.githubusercontent.com/93427248/201912826-820effc8-e69e-46c8-8b4b-9ece88c37e37.png)
 
-NON NULL BEFORE:
-![output](./dur.4.png)
-MODE:
-![output](./dur.5.png)
-MEAN:
-![output](./dur.6.png)
-MEDIAN:
-![output](./dur.7.png)
-![output](./dur.8.png)
-NON NULL AFTER:
-![output](./dur.9.png)
+![image](https://user-images.githubusercontent.com/93427248/201912881-50d59637-8a7c-4de9-80c7-cb4b952e4c5d.png)
+
+### NON NULL BEFORE:
+![image](https://user-images.githubusercontent.com/93427248/201912974-12d5c555-f809-4258-a04b-0288133fc947.png)MODE:
+### MEAN:
+![image](https://user-images.githubusercontent.com/93427248/201913159-ac110d1e-1e74-4362-a1ae-a8efbef79e82.png)
+### MEDIAN:
+![image](https://user-images.githubusercontent.com/93427248/201913240-659aed8d-de6a-4da2-9f14-eb0d985663fc.png)
+
+![image](https://user-images.githubusercontent.com/93427248/201913298-3c552907-0276-4452-913f-d4e8923853ce.png)
+
+### NON NULL AFTER:
+![image](https://user-images.githubusercontent.com/93427248/201913361-9d636a9d-024a-4dfb-a017-4e606181c7eb.png)
 ##### CODE FOR DATA SET2:
 
-## CODE FOR DATA 2:
-```
+~~~
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -102,36 +103,25 @@ d.isnull().sum()
 
 #Checking info of the dataset to check all the columns have entries
 d.info()
-```
-
-
-
-
-
-
+~~~
 
 ### OUTPUT FOR DATASET 2:
 ### DATA:
 
-![output](./dur.10.png)
-![output](./dur.11.png)
-![output](./dur.12.png)
+![image](https://user-images.githubusercontent.com/93427248/201913458-63e1bebe-75e6-4003-bee5-065c783cb08b.png)
+![image](https://user-images.githubusercontent.com/93427248/201913533-c43d0201-ec6e-4f77-a819-241fcc77d77a.png)
+![image](https://user-images.githubusercontent.com/93427248/201913581-dbc07d35-482f-45a2-b6d5-3994a32425c8.png)
 ### NULL BEFORE:
 
-![output](./dur.13.png)
-
+![image](https://user-images.githubusercontent.com/93427248/201913617-ec2db793-37a8-427d-919e-7d33a20053f3.png)
 ### MODE:
 
-![output](./dur.14.png)
-
+![image](https://user-images.githubusercontent.com/93427248/201913640-76d6f3df-578e-4150-b7b9-a8b1f405c664.png)
 ### MEDIAN:
-![output](./dur.15.png)
-
-![output](./dur.16.png)
-
+![image](https://user-images.githubusercontent.com/93427248/201913667-328cf047-1734-456c-b19a-9d05ded2e926.png)
+![image](https://user-images.githubusercontent.com/93427248/201913689-6c62c8fd-09fc-4cf2-8e39-327333464c6e.png)
 ### NON NULL AFTER:
-![output](./dur.17.png)
-
+![image](https://user-images.githubusercontent.com/93427248/201913732-55241f23-6f85-403f-92e9-67c8b2678307.png)
 
 ### RESULT:
 Thus the given data is read,cleansed and cleaned data is saved into the file.
